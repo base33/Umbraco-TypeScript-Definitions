@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>UmbracoTypescriptDefinition</id>
+    <version>1.1</version>
+    <title>Umbraco TypeScript Definition</title>
+    <authors>Craig Noble</authors>
+    <owners>Mentor Digital</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/base33</projectUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/TypeScript_Logo.png/220px-TypeScript_Logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TypeScript Typed Definitions for Umbraco 7</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>umbraco typescript typeddefinitions typed defitions</tags>
+  </metadata>
+  <files>
+	<file src="..\src\Umbraco.TypeScript\*.ts" target="content\Scripts\typings\umbracotypeddefinitions" />
+  </files>
+</package>
